@@ -1,9 +1,5 @@
 function dose2bed(ID)
 
-%%% dose2bed v1.0. Hospital HM Sanchinarro
-%%% Jaime Martí Asenjo
-
-
 %ID: Nombre de la carpeta donde se encuentran los archivos de Imagen,
 %Dosis, Estucturas y Plan.
 
@@ -447,6 +443,8 @@ Ruta2=strcat(Ruta,ID,'\',EQ);
 dicomwrite(EQD2,Ruta2,Dosis_D,'CreateMode','copy');
 
 
+%%% dose2bed v1.0. Hospital HM Sanchinarro
+%%% Jaime Martí Asenjo
 
 
 
