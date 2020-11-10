@@ -1,5 +1,6 @@
 INSTRUCCIONES USO
 
+Es necesario tener instalada la herramienta de procesado de imágenes (image processing tool) de Matlab. El código está comporbado para Matlab 2019 y Raystation 8.1
 
 1. Exportar TAC, estructuras, dosis y plan a una carpeta 
 2. Abrir el archivo dose2bed.m
