@@ -11,6 +11,5 @@ Es responsabilidad del usuario el correcto uso de esta herramienta.
 6. Línea 34: Elegir el método de interpolación (por defecto lineal 'linear')
 7. Línea 46 en adelante: SEGM{n,1}='nombre del órgano n' SEGM{n,2}=cociente alfabeta. Añadir tantos OARs como se desee.
 8. Abrir Matlab y seleccionar la carpeta en el workspace donde esté el archivo dose2bed. Ejecutar: dose2bed('Nombredelacarpetadelpaciente')
-9. Importar de uno en uno los archivos de dosis BED y EQD2 que aparecerán en la carpeta del paciente
+9. Importar, DE UNO EN UNO, los archivos de dosis BED y EQD2 que aparecerán en la carpeta del paciente. Los archivos de dosis tendrán en el nombre al final 'EQD2' o 'BED'. Seleccionar solo uno en cada importación.
 10. Raystation en ocasiones se cierra durante la operación, en ese caso volver a intentar.
-
