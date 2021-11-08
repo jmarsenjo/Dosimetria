@@ -1,6 +1,6 @@
 INSTRUCCIONES USO
 
-Es necesario tener instalada la herramienta de procesado de imágenes (image processing tool) de Matlab. El código está comporbado para Matlab 2019 y Raystation 8.1
+Es necesario tener instalada la herramienta de procesado de imágenes (image processing tool) de Matlab. El código está comprobado para Matlab 2019 y Raystation 8.1
 Es responsabilidad del usuario el correcto uso de esta herramienta.
 
 1. Exportar TAC, estructuras, dosis y plan a una carpeta 
