@@ -1,0 +1,14 @@
+INSTRUCCIONES USO
+
+
+1. Exportar TAC, estructuras, dosis y plan a una carpeta 
+2. Abrir el archivo dose2bed.m
+3. Editar en la línea 15 la ruta donde se ha puesto la carpeta. NO incluir el nombre de la carpeta, solo la ruta terminada en '\'
+4. Línea 23: Elegir si se resamplea la malla de dosis (P00 = 1, por defecto) o de las estructuras (P00 = 0)
+5. Línea 27: Editar el parámetro AlfaB con el valor deseado como valor para estructuras no etiquetadas (por defecto 3)
+6. Línea 34: Elegir el método de interpolación (por defecto lineal 'linear')
+7. Línea 46 en adelante: SEGM{n,1}='nombre del órgano n' SEGM{n,2}=cociente alfabeta. Añadir tantos OARs como se desee. Pueden mantenerse definidas estructuras que no existan en el plan. Mantener un orden de mayor AlfaB a menor AlfaB.
+8. Abrir Matlab y seleccionar la carpeta en el workspace donde esté el archivo dose2bed. Ejecutar: dose2bed('Nombredelacarpetadelpaciente')
+9. Importar de uno en uno los archivos de dosis BED y EQD2 que aparecerán en la carpeta del paciente
+10. Raystation en ocasiones se cierra durante la operación, en ese caso volver a intentar.
+
